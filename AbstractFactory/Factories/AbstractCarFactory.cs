@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace AbstractFactory.Factories
 {
-    public abstract class AbstractFactory
+    public abstract class AbstractCarFactory
     {
         public abstract Car CreateCar();
     }

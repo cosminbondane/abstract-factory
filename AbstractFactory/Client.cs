@@ -11,7 +11,7 @@ namespace AbstractFactory
     {
         private Car car;
 
-        public Client(Factories.AbstractFactory factory)
+        public Client(Factories.AbstractCarFactory factory)
         {
             car = factory.CreateCar();
         }

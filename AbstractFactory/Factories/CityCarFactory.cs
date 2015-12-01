@@ -8,11 +8,11 @@ using AbstractFactory.Products;
 
 namespace AbstractFactory.Factories
 {
-    public class SportFactory : AbstractFactory
+    public class CityCarFactory : AbstractCarFactory
     {
         public override Car CreateCar()
         {
-            return new Ferrari();
+            return new Smart();
         }
     }
 }

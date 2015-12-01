@@ -44,9 +44,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Client.cs" />
-    <Compile Include="Factories\AbstractFactory.cs" />
-    <Compile Include="Factories\CityFactory.cs" />
-    <Compile Include="Factories\SportFactory.cs" />
+    <Compile Include="Factories\AbstractCarFactory.cs" />
+    <Compile Include="Factories\CityCarFactory.cs" />
+    <Compile Include="Factories\SportCarFactory.cs" />
     <Compile Include="Products\Abstract\Car.cs" />
     <Compile Include="Products\Car\Smart.cs" />
     <Compile Include="Products\Car\Ferrari.cs" />
